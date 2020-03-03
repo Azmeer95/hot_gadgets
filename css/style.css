@@ -41,7 +41,7 @@ body {
     border-radius: 10px;
 }
 
-/* Smartphone card styling */
+/* Smartphone and laptop card styling */
 .heading {
     padding-bottom: 40px;
 }
@@ -57,7 +57,7 @@ body {
 .card {
     border: none;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px lightgrey;
+    box-shadow: 5px 10px 5px lightgrey;
 }
 
 .card-footer {
@@ -71,4 +71,11 @@ body {
 
 .card-footer {
     text-align: center;
+}
+
+/* Categories styling */
+.cathead {
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 40px;
 }

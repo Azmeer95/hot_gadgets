@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins';
 }
 
+/* Navbar container */
 .container a {
     color: #707070;
     font-weight: bold;
@@ -9,12 +10,7 @@ body {
 
 .container {
     padding-top: 50px;
-}
-
-.carousel-container {
-    max-width: 1140px;
-    margin-right: auto;
-    margin-left: auto;
+    padding-bottom: 50px;
 }
 
 .carousel-item {
@@ -43,4 +39,36 @@ body {
     background-color: #FF9C35;
     height: 5px;
     border-radius: 10px;
+}
+
+/* Smartphone card styling */
+.heading {
+    padding-bottom: 40px;
+}
+
+.heading h4, h5 {
+    font-weight: bolder;
+}
+
+.highlight {
+    color: #FF9D00;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+
+.card-footer {
+    background-color: #fff;
+    border-top: none;
+}
+
+.card h4, h5, p{
+    text-align: center;
+}
+
+.card-footer {
+    text-align: center;
 }

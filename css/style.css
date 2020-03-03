@@ -10,3 +10,37 @@ body {
 .container {
     padding-top: 50px;
 }
+
+.carousel-container {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.carousel-item {
+     padding: 20px 40px; 
+}
+
+.carousel-item h3{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.carousel-item p{
+    color: #707070;
+    padding-bottom: 20px;
+}
+
+.button {
+    background-color: #1F1F1F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.carousel-indicators li {
+    background-color: #FF9C35;
+    height: 5px;
+    border-radius: 10px;
+}
